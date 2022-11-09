@@ -62,6 +62,10 @@ nav {
     color: var(--very-dark-blue);
 }
 
+.desktop-links li a:hover {
+    opacity: 70%;
+}
+
 .illustration {
     justify-content: center;
     align-items: center;
@@ -115,6 +119,11 @@ button {
     cursor: pointer;
 }
 
+button:active,
+button:hover {
+    opacity: 80%;
+}
+
 .btn-started {
     width: 30%;
 }
@@ -151,16 +160,20 @@ button {
 
 .productive-text a {
     display: flex;
-    column-gap: .5rem;
+    column-gap: .3rem;
     font-size: .9rem;
     color: var(--moderate-cyan);
     font-weight: 500;
 }
 
-.productive-text a::after {
+/* .productive-text a::after {
     content: '';
     width: 3rem;
     color: var(--moderate-cyan);
+} */
+
+.productive-text a:active {
+    text-decoration: underline;
 }
 
 .testimony {
@@ -296,6 +309,10 @@ footer {
     opacity: 90%;
 }
 
+.phone p {
+    color: #fff;
+}
+
 .f-links a {
     color: #fff;
 }
@@ -322,6 +339,17 @@ footer {
 
 #icon {
     color: #fff;
+}
+
+#icon:active,
+#icon:hover {
+    color: var(--bright-blue);
+    border-color: var(--bright-blue);
+}
+
+.f-links a:active,
+.f-links a:hover {
+    color: var(--bright-blue);
 }
 
 
