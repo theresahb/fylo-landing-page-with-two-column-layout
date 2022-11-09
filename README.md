@@ -13,7 +13,7 @@ CSS Flexbox
 
 ## Links
 
-- [Live link](https://theresahb.github.io/insure-landing-page/)
+- [Live link](https://theresahb.github.io/fylo-landing-page-with-two-column-layout/)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
